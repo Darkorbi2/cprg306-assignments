@@ -4,7 +4,7 @@ export default function StudentInfo() {
     <main>
       <h1>Nathanael Lee</h1>
       <Link href="https://github.com/Darkorbi2/cprg306-assignments">
-        github link
+        click for github link
       </Link>
     </main>
   );
