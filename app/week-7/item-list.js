@@ -23,6 +23,7 @@ export default function ItemList({itemsArray}) {
           onClick={() => setSortBy("name")}
           className={`px-4 py-2 rounded-md font-semibold transition-colors ${
             sortBy === "name"
+
               ? "bg-teal-500 text-white"
               : "bg-gray-600 text-white"
           }`}

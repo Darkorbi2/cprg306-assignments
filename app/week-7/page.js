@@ -10,8 +10,10 @@ export default function Page() {
   const [items, setItems] = useState(itemsData);
   
   const handleAddItem = (newItem) => {
-    items.push(newItem);
+    setItems(prevArray => [...prevArray, newItem]);;
   } 
+
+  
 
   return (
     <main>
